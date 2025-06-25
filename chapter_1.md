@@ -1,3 +1,5 @@
+# Chapter 1 Review of Basic Algebra
+
 **1.** For each statement, tell which of the following properties or definitions
 are used.
 
