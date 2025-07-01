@@ -1535,7 +1535,7 @@ As an aside, the comma is optional in notation for smaller matrices:
 
 $$ C_{ij} = (-1)^{i + j} \cdot \det(M_{ij}) $$
 
-We can therefore determine the conjugate of $1, 1$ like so:
+We can therefore determine the cofactor of $1, 1$ like so:
 
 $$ C_{11} = (-1)^{1 + 1} \cdot \det{M_{11}} $$
 
@@ -1549,7 +1549,7 @@ $$ C_{11} = 1 \cdot 1 $$
 
 $$ C_{11} = 1 $$
 
-We can then find the determinant for the entire matrix using conjugates from
+We can then find the determinant for the entire matrix using cofactors from
 ${1,1}$ through to ${1, 3}$. We already have $C_{11}$, let's find $C_{12}$ and
 $C_{13}$. Note that we only have to choose one row to do this, but we do have to
 iterate through the each column along that chosen row.
@@ -1830,7 +1830,7 @@ $$
 
 First compute the determinant of the matrix $M$:
 
-$$ \det(A) = a^{11} \cdot \det(M_{11}) - a_{12} \cdot \det(M_{12}) + a_{13}
+$$ \det(M) = a^{11} \cdot \det(M_{11}) - a_{12} \cdot \det(M_{12}) + a_{13}
 \cdot \det(M_{13}) $$
 
 The Minor of $M_{11}$ is:
@@ -2445,7 +2445,7 @@ $$ \boxed{x = 13 \text{, } y = 11} $$
 ---
 
 **237.** The sum of the circumferences of two circles is $88 \text{ in}$, and
-the sum of their ares is $\dfrac{2200}{7} \text{ in}^2$ when $\pi \approx
+the sum of their areas is $\dfrac{2200}{7} \text{ in}^2$ when $\pi \approx
 \dfrac{22}{7}$. Find the radius of each circle.
 
 $$ C = 2\pi r $$
@@ -2723,7 +2723,7 @@ $(0, 0)$ side of the plane is shaded.
 
 **Answer:**
 
-We graph $2 \leq x < 2$ and $-1 < y \leq 6$ on teh same set of axes and find
+We graph $2 \leq x < 2$ and $-1 < y \leq 6$ on the same set of axes and find
 where they intersect. Notice the crosshatched region: That is the solution set.
 
 ![image 05_3](./05_3.png)
@@ -2745,6 +2745,8 @@ solution set.
 $\overline{P_1P_2}$.
 
 $$ P_1(2, 3)\text{, } P_2(5, 8) $$
+
+**Answer:**
 
 If the line $l$ connects $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$, then $x = x_1 +
 t(x_2 - x_1)$ and $y = y_1 + t(y_2 - y_1)$ for any $t \in \R$ represents
