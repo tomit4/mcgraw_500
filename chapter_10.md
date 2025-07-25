@@ -978,3 +978,650 @@ asymptotes, then the vertices and the hyperbola.
 **Answer:**
 
 $$ \dfrac{x^2}{9} - \dfrac{y^2}{4} = 1 $$
+
+You can easily graph a Hyperbola by analyzing it from the Hyperbola Formula:
+
+$$ \frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 1 $$
+
+This is a horizontally ($x$ axis) oriented hyperbola.
+
+Or:
+
+$$ \frac{(y - k)^2}{a^2} -  \frac{(x - h)^2}{b^2} = 1 $$
+
+This is a vertically ($y$ axis) oriented hyperbola.
+
+In our problem statement, $h$ and $k$ are $0$, putting our center at $(0, 0)$.
+
+From here, we can find our vertices by analyzing $a$:
+
+$$ a^2 = 9 $$
+
+$$ a = 3 $$
+
+And also $b$:
+
+$$ b^2 = 4 $$
+
+$$ b = 2 $$
+
+The length of the Transverse axis is just $2a$, while the length of the Converse
+Axis is just $2b$:
+
+$$ \text{Length of The Transverse Axis: } 6 $$
+
+$$ \text{Length of The Conjugate Axis: } 4 $$
+
+From here, we can plot the points based off their numerator:
+
+$$ (-a + h, k) \text{, } (a + h, k) \text{, } (h, -b + k) \text{, (h, b + k)} $$
+
+$$ (-3, 0) \text{, } (3, 0) \text{, } (0, -2) \text{, } (0, 2) $$
+
+These are the two vertices along the Transverse Axis, and the two conjugate
+vertices along the Converse Axis.
+
+Draw a box from the four points with a dotted line, then you can draw the
+diagonal asymptotes along the corners. You can also determine the Asymptotes
+with the following formula:
+
+$$ y = \pm \left(\frac{b}{a}\right)x $$
+
+$$ y = \pm \left(\frac{2}{3}\right)x $$
+
+Lastly we can determine the Foci:
+
+$$ c^2 = a^2 + b^2 $$
+
+$$ c^2 = 9 + 4 $$
+
+$$ c^2 = 13 $$
+
+$$ c = \pm \sqrt{13} $$
+
+Thusly we have our points, and we can graph:
+
+$$ \boxed{\text{Vertices: } (\pm 3, 0)} $$
+
+$$ \boxed{\text{Foci: } (\pm \sqrt{13}, 0)} $$
+
+$$ \boxed{\text{Asymptotes: } y = \pm \left(\frac{2}{3}\right)x} $$
+
+See Figure A10.6:
+
+![image 10_5](./10_5.png)
+
+---
+
+**424.** $3y^2 - 2x^2 = 24$
+
+**Answer:**
+
+Get it into Hyperbola standard form first:
+
+$$ \frac{3y^2}{24} - \frac{2x^2}{24} = 1 $$
+
+$$ \frac{y^2}{8} - \frac{x^2}{12} = 1 $$
+
+This is a Vertically aligned Hyperbola since the positive term is $y^2$.
+
+$$ a^2 = 8 $$
+
+$$ a = \sqrt{8} $$
+
+$$ a = 2\sqrt{2} $$
+
+$$ a \approx 2.83 $$
+
+So our Vertices lie at:
+
+$$ \text{Vertices: } (0, \pm 2\sqrt{2}) $$
+
+We can also plot our hyperbola by calculating along the $b$ points conjugate
+($x$) axis:
+
+$$ b^2 = 12 $$
+
+$$ b = \sqrt{12} $$
+
+$$ b = 2\sqrt{3} $$
+
+$$ b \approx 3.46 $$
+
+We can use the approximations for $a$ and $b$ to create a box with a dotted line
+and from there we can determine our diagonal asymptotes along which our
+Hyperbola will run alongside. Of course, we can calculate those asymptotes as
+well:
+
+$$ y = \pm \left(\frac{a}{b}\right)x $$
+
+$$ y = \pm \left(\frac{2\sqrt{2}}{2\sqrt{3}}\right)x $$
+
+$$ y = \pm \left(\frac{\sqrt{2}}{\sqrt{3}}\right)x $$
+
+$$ \text{Asymptotes: } y = \pm \left(\frac{\sqrt{6}}{3}\right)x $$
+
+The length of the Transverse axis is just $2a$, while the length of the Converse
+axis is just $2b$:
+
+$$ \text{Length Of The Transverse Axis } = 2a = 4\sqrt{2} $$
+
+$$ \text{Length Of The Converse Axis } = 2b = 4\sqrt{3} $$
+
+And our foci is simply:
+
+$$ c^2 = a^2 + b^2 $$
+
+$$ c^2 = 8 + 12 $$
+
+$$ c^2 = 20 $$
+
+$$ c = \pm \sqrt{20} $$
+
+$$ c = \pm 2\sqrt{5} $$
+
+$$ \text{Foci: } (0, \pm 2\sqrt{5}) $$
+
+Thusly our final points that will help us graph are:
+
+$$ \boxed{\text{Vertices: } (0, \pm 2\sqrt{2})} $$
+
+$$ \boxed{a = 2\sqrt{2}} $$
+
+$$ \boxed{b = 2\sqrt{3}} $$
+
+$$ \boxed{\text{Asymptotes: } y = \pm \left(\frac{\sqrt{6}}{3}\right)x} $$
+
+$$ \boxed{\text{Length Of The Transverse Axis } = 2a = 4\sqrt{2}} $$
+
+$$ \boxed{\text{Length Of The Converse Axis } = 2b = 4\sqrt{3}} $$
+
+$$ \boxed{\text{Foci: } (0, \pm 2\sqrt{5})} $$
+
+See Figure A10.7:
+
+![image 10_6](./10_6.png)
+
+---
+
+**For questions 425 and 426,** find the equations of the asymptotes for the
+given hyperbola.
+
+---
+
+**425.** $x^2 - \dfrac{y^2}{4} = 1$
+
+**Answer:**
+
+Let's put this in a form that conforms to the Hyperbola standard form:
+
+$$ \frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 1 $$
+
+$$ \frac{x^2}{1} - \frac{y^2}{4} = 1 $$
+
+This gives us the values we need to solve for the Asymptotes:
+
+$$ y = \pm \left(\frac{b}{a}\right)x $$
+
+$$ y = \pm \left(\frac{2}{1}\right)x $$
+
+$$ \boxed{y = \pm 2x} $$
+
+---
+
+**426.** $\dfrac{y^2}{3} - \dfrac{x^2}{2} = 1$
+
+**Answer:**
+
+Our formula for solving for the Asymptotes changes slightly when the positive
+term is $y$:
+
+$$ y = \pm \left(\frac{a}{b}\right)x $$
+
+$$ y = \pm \left(\frac{\sqrt{3}}{\sqrt{2}}\right)x $$
+
+$$ \boxed{y = \pm \left(\frac{\sqrt{6}}{2}\right)x} $$
+
+---
+
+**For questions 427 and 428,** find the center of the given hyperbola and put
+the equation in standard hyperbola form.
+
+---
+
+**427.** $x^2 - 4y^2 + 6x + 16y - 11 = 0$
+
+**Answer:**
+
+$$ x^2 - 4y^2 + 6x + 16y - 11 = 0 $$
+
+So let's put it in standard form first, we can then easily find the center by
+examining the values of $(h, k)$.
+
+$$ x^2 + 6x - 4y^2 + 16y = 11 $$
+
+$$ (x^2 + 6x) - 4(y^2 - 4y) = 11 $$
+
+Complete the square:
+
+$$ (x^2 + 6x + 9) - 4(y^2 - 4y + 4) = 11 + 9 + (-4)(4) $$
+
+$$ (x + 3)^2 - 4(y - 2)^2 = 4 $$
+
+$$ \frac{(x + 3)^2}{4} - \frac{(y - 2)^2}{1} = 1 $$
+
+And this is in standard form, from here we can compare that to the standard
+Hyperbola form formula:
+
+$$ \frac{(x - h)^2}{a^2} -  \frac{(y - k)^2}{b^2} = 1 $$
+
+And our center is just $(h, k)$:
+
+$$ \text{Center: } (-3, 2) $$
+
+Our final answer is:
+
+$$ \boxed{\frac{(x + 3)^2}{4} - \frac{(y - 2)^2}{1} = 1} $$
+
+$$ \boxed{\text{Center: } (-3, 2)} $$
+
+---
+
+**428.** $144x^2 - 25y^2 - 576x + 200y + 3776 = 0$
+
+**Answer:**
+
+$$ 144x^2 - 25y^2 - 576x + 200y + 3776 = 0 $$
+
+$$ 144x^2 - 576x - 25y^2 + 200y = -3776 $$
+
+$$ (144x^2 - 576x) - (25y^2 - 200y) = -3776 $$
+
+$$ 144(x^2 - 4x) - 25(y^2 - 8y) = -3776 $$
+
+Complete the square:
+
+$$ 144(x^2 - 4x + 4) - 25(y^2 - 8y + 16) = -3776 + 144(4) + (-25)(16) $$
+
+$$ 144(x - 2)^2 - 25(y - 4)^2 = -3600 $$
+
+$$ \frac{144(x - 2)^2}{-3600} - \frac{25(y - 4)^2}{-3600} = 1 $$
+
+$$ -\frac{(x - 2)^2}{25} + \frac{(y - 4)^2}{144} = 1 $$
+
+And this is standard form:
+
+$$ \frac{(y - 4)^2}{144} - \frac{(x - 2)^2}{25} = 1 $$
+
+And from here we can determine the center again, by $(h, k)$:
+
+$$  \frac{(y - k)^2}{a^2} - \frac{(x - h)^2}{b^2} = 1 $$
+
+$$ \text{Center: } (2, 4) $$
+
+Answers:
+
+$$ \boxed{\frac{(y - 4)^2}{144} - \frac{(x - 2)^2}{25} = 1} $$
+
+$$ \boxed{\text{Center: } (2, 4)} $$
+
+---
+
+**For questions 429 and 430,** find the vertices, foci and asymptotes.
+
+**429.** $x^2 - 4y^2 + 6x + 16y - 11 = 0$
+
+**Answer:**
+
+This is just a combination of everything we've learned, so let's go:
+
+$$ x^2 - 4y^2 + 6x + 16y - 11 = 0 $$
+
+Standard form from 427:
+
+$$ \frac{(x + 3)^2}{4} - \frac{(y - 2)^2}{1} = 1 $$
+
+The Vertices can be found by evaluating $a$:
+
+$$ a^2 = 4 $$
+
+$$ a = 2 $$
+
+And so our Vertices for a horizontally aligned hyperbola are:
+
+$$ \text{Vertices: } (h \pm a, k) $$
+
+$$ \text{Vertices: } (-3 \pm 2, 2) $$
+
+$$ \text{Vertices: } (-1, 2) \text{, } (-5, 2) $$
+
+The Foci can be determined with:
+
+$$ c^2 = a^2 + b^2 $$
+
+$$ c^2 = 4 + 1 $$
+
+$$ c^2 = 5 $$
+
+$$ c = \pm \sqrt{5} $$
+
+So our Foci are:
+
+$$ \text{Foci: } (h \pm c, k) $$
+
+$$ \text{Foci: } (-3 \pm \sqrt{5}, 2) $$
+
+$$ \text{Foci: } (-3 + \sqrt{5}, 2) \text{, } (-3 - \sqrt{5}, 2) $$
+
+The asymptotes can be determined for a horizontally aligned hyperbola:
+
+$$ \text{Asymptotes: } y = \pm \left(\frac{b}{a}\right)x $$
+
+$$ \text{Asymptotes: } y = \pm \left(\frac{1}{2}\right)x $$
+
+Thusly our final answers are:
+
+$$ \boxed{\text{Vertices: } (-1, 2) \text{, } (-5, 2)} $$
+
+$$ \boxed{\text{Foci: } (-3 + \sqrt{5}, 2) \text{, } (-3 - \sqrt{5}, 2)} $$
+
+$$ \boxed{\text{Asymptotes: } y = \pm \left(\frac{1}{2}\right)x} $$
+
+---
+
+**430.** $144x^2 - 25y^2 - 576x + 200y + 3776 = 0$
+
+**Answer:**
+
+Get into standard form from problem 428:
+
+$$ \frac{(y - 4)^2}{144} - \frac{(x - 2)^2}{25} = 1 $$
+
+The vertices can be for a vertically aligned hyperbola are:
+
+$$ \text{Vertices: } (h, k \pm a) $$
+
+$$ a^2 = 144 $$
+
+$$ a = 12 $$
+
+$$ \text{Vertices: } (2, 4 \pm 12) $$
+
+$$ \text{Vertices: } (2, 16) \text{, } (2, -8) $$
+
+The Foci for a vertically aligned hyperbola are:
+
+$$ \text{Foci: } (h, k \pm c) $$
+
+$$ c^2 = a^2 + b^2 $$
+
+$$ c^2 = 144 + 25 $$
+
+$$ c^2 = 169 $$
+
+$$ c = \pm 13 $$
+
+$$ \text{Foci: } (2, 4 \pm 13) $$
+
+$$ \text{Foci: } (2, 17) \text{, } (2, -9) $$
+
+Asymptotes for a vertically aligned hyperbola are:
+
+$$ \text{Asymptotes: } y = \pm\left(\frac{a}{b}\right)x $$
+
+$$ \text{Asymptotes: } y = \pm\left(\frac{12}{5}\right)x $$
+
+So our answers are:
+
+$$ \boxed{\text{Vertices: } (2, 16) \text{, } (2, -8)} $$
+
+$$ \boxed{\text{Foci: } (2, 17) \text{, } (2, -9)} $$
+
+$$ \boxed{\text{Asymptotes: } y = \pm\left(\frac{12}{5}\right)x} $$
+
+---
+
+## Miscellaneous Problems
+
+---
+
+**For questions 431 and 432,** describe the locus represented by the given
+equation.
+
+---
+
+**431**. $x^2 + y^2 - 10x + 8y + 5 = 0$
+
+**Answer:**
+
+Let's try to get this into a standard form we can recognize:
+
+$$ x^2 + y^2 - 10x + 8y + 5 = 0 $$
+
+$$ x^2 - 10x + y^2 + 8y = -5 $$
+
+$$ (x^2 - 10x) + (y^2 + 8y) = -5 $$
+
+Complete the square:
+
+$$ (x^2 - 10x + 25) + (y^2 + 8y + 16) = -5 + 25 + 16 $$
+
+$$ (x - 5)^2 + (y + 4)^2 = 36 $$
+
+Now we have it in standard form. The locus of this equation is a **circle** with
+a **center** at $(5, -4)$ and a **radius** of $6$.
+
+---
+
+**432.** $x^2 + y^2 + 4x - 6y + 24 = 0$
+
+**Answer:**
+
+Let's try to get this into a standard form we can recognize:
+
+$$ x^2 + y^2 + 4x - 6y + 24 = 0 $$
+
+$$ x^2 + 4x + y^2 - 6y = -24 $$
+
+$$ (x^2 + 4x) + (y^2 - 6y) = -24 $$
+
+Complete the square:
+
+$$ (x^2 + 4x + 4) + (y^2 - 6y + 9) = -24 + 4 + 9 $$
+
+$$ (x + 2)^2 + (y - 3)^2 = -11 $$
+
+And this looks like a circle, but a circle cannot have an $r^2$ of $-11$, so
+there is no real locus, only an **imaginary** locus.
+
+---
+
+**For questions 433-435,** for the given parabola, sketch the curve, find the
+coordinates of the vertex and focus, and give the equations of the axis and
+directrix.
+
+---
+
+**433.** $y^2 = 16x$
+
+**Answer:**
+
+Let's find the Vertex, Focus, axis, and directrix first:
+
+The standard form for a parabola is:
+
+$$ (y - k)^2 = 4p(x - h) $$
+
+Where the focus is $(h + p, k)$ and the directrix is $x = h − p$.
+
+So plugging in our given problem, we see in standard form it is:
+
+$$ (y - 0)^2 = 4(4)(x - 0) $$
+
+So the focus is:
+
+$$ \text{Focus: } (0 + 4, 0) $$
+
+$$ \text{Focus: } (4, 0) $$
+
+And the directrix is:
+
+$$ \text{Directrix: } x = 0 - 4 $$
+
+$$ \text{Directrix: } x = -4 $$
+
+The vertex is just $(h, k)$:
+
+$$ \text{Vertex: } (0, 0) $$
+
+And we can find the axis (of symmetry) by the following formulas when in
+quadratic form:
+
+$$ x = -\frac{b}{2a} $$
+
+Or:
+
+$$ y = -\frac{b}{2a} $$
+
+Depending on the orientation of the hyperbola.
+
+But in this case, we are in Vertex form, so the axis (of symmetry) can be found
+much easier with the following formulas:
+
+$$ x = h $$
+
+Or:
+
+$$ y = k $$
+
+In this case, since this is a horizontally oriented parabola, we will use:
+
+$$ y = k $$
+
+$$ \text{Axis Of Symmetry: } y = 0 $$
+
+So our final answers are:
+
+$$ \boxed{\text{Focus: } (4, 0)} $$
+
+$$ \boxed{\text{Directrix: } x = -4 \text{ or} (-4, 0)} $$
+
+$$ \boxed{\text{Vertex: } (0, 0)} $$
+
+$$ \boxed{\text{Axis Of Symmetry: } y = 0} $$
+
+See Figure A10.8:
+
+![image 10_7](./10_7.png)
+
+---
+
+**434.** $x^2 = -9y$
+
+**Answer:**
+
+$$ (x - h)^2 = 4p(y - k)^2 $$
+
+$$ (x - 0)^2 = 4\left(-\frac{9}{4}\right)(y - 0)^2 $$
+
+Where the focus is $(h, k + p)$ and the directrix is $y = k − p$.
+
+$$ \text{Focus: } \left(0, 0 + \left(-\frac{9}{4}\right)\right) $$
+
+$$ \text{Focus: } \left(0, -\frac{9}{4}\right) $$
+
+$$ \text{Directrix: } y = 0 - \left(-\frac{9}{4}\right) $$
+
+$$ \text{Directrix: } y = \frac{9}{4} \text{ or } \left(0, \frac{9}{4}\right) $$
+
+$$ \text{Vertex: } (h, k) $$
+
+$$ \text{Vertex: } (0, 0) $$
+
+$$ \text{Axis Of Symmetry: } x = h $$
+
+$$ \text{Axis Of Symmetry: } x = 0 $$
+
+Answers:
+
+$$ \text{Focus: } \left(0, -\frac{9}{4}\right) $$
+
+$$ \text{Directrix: } y = \frac{9}{4} \text{ or } \left(0, \frac{9}{4}\right) $$
+
+$$ \text{Vertex: } (0, 0) $$
+
+$$ \text{Axis Of Symmetry: } x = 0 $$
+
+See Figure A10.9:
+
+![image 10_8](./10_8.png)
+
+---
+
+**435.** $x^2 - 2x - 12y + 25 = 0$
+
+**Answer:**
+
+$$ x^2 - 2x - 12y + 25 = 0 $$
+
+We can convert this to standard form:
+
+$$ (x - h)^2 = 4p(y - k)^2 $$
+
+$$ x^2 - 2x = 12y - 25 $$
+
+Complete the square:
+
+$$ (x^2 - 2x + 1) = 12y - 25 + 1 $$
+
+$$ (x - 1)^2 = 12y - 24 $$
+
+$$ (x - 1)^2 = 12(y - 2) $$
+
+$$ (x - 1)^2 = 4(3)(y - 2) $$
+
+Where the focus is $(h, k + p)$ and the directrix is $y = k − p$.
+
+$$ \text{Focus: } (1, 2 + 3) $$
+
+$$ \text{Focus: } (1, 5) $$
+
+$$ \text{Directrix: } y = 2 - 3 $$
+
+$$ \text{Directrix: } y = -1 \text{ or } (1, -1) $$
+
+$$ \text{Vertex: } (h, k) $$
+
+$$ \text{Vertex: } (1, 2) $$
+
+$$ \text{Axis Of Symmetry: } x = 1 $$
+
+Answer is:
+
+$$ \boxed{\text{Focus: } (1, 5)} $$
+
+$$ \boxed{\text{Directrix: } y = -1 \text{ or } (1, -1)} $$
+
+$$ \boxed{\text{Vertex: } (1, 2)} $$
+
+$$ \boxed{\text{Axis Of Symmetry: } x = 1} $$
+
+See Figure A10.10:
+
+![image 10_9](./10_9.png)
+
+---
+
+**436.** Write the equation of the conhjugate of the hyperbola $25x^2 - 16y^2 =
+400$, and sketch both curves.
+
+**Answer:**
+
+Taken from the back of the book.
+
+The equation of the conjugate hyperbola is $16y^2 - 25x^2 = 400$. The common
+asymptotes have equations $y = \pm\dfrac{5x}{4}$. The vertices of $25x^2 - 16y^2
+= 400$ are at $(\pm 4, 0)$. The vertices of $16y^2 - 25x^2 = 400$ are at
+$(0, \pm 5)$. The curves are shown in Figure A10.11.
+
+![image 10_10](./10_10.png)
